@@ -1,0 +1,10 @@
+For CHANGELOG
+Date: description
+
+For README
+Short paragraph describing what your program does
+Describe known bugs
+
+
+Packaging code
+tar cvfz filedir.tar.gz filedir

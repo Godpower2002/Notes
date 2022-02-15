@@ -1,0 +1,21 @@
+
+
+
+
+Make file notes
+
+#To build with a make file...
+#need tab after dependency list
+#target: list of dependencies
+#	command to build target from dependencies
+#touch filename.c to rebuild to update time 
+
+#If there are more than one target and want them to be built by default.
+all: TargetFile1 TargetFile2
+
+KnightsTour: knightstour.c
+	gcc knightstour.c -o knightstour -Wall -Werror
+
+#cleans excessive files after make has been built.
+clean:
+	rm filename1 filename2 

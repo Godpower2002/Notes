@@ -1,0 +1,54 @@
+1/27/2022
+
+
+Map is stored as a 2D array
+
+
+	Method #1
+Making the map
+choose a random point as a map as a starting seed location.
+Check the adjacent squares and check if something is there.
+Make multiple lsquares around the origional point
+Random values for growing vertically and horizontally.
+For roads random point on each for directions
+Dijkstra's algorithim: Shortest path algorithim to find paths through grass.
+
+	Method #2
+1.Start with seed location
+2. fixed size seed grass locations 
+3. clearings overide grass
+4. pick 4 random points on edges
+pick random point along x axis
+trace from random point x axis to other exit y axis and trace along x axis to second exit point.
+One exit in each direction
+
+Chose a center 
+choose x+y dimension
+place eahc reason 
+later regions get priority 
+decide how to use unallocated space 
+
+Roads
+Choose pads
+choise random points in between
+connect the dots
+
+
+
+How to print in terminal.
+
+5 Different clearings 
+5 Different grass regions
+
+enum enum_name{
+	enum1,
+	enum2,
+...
+};
+
+declearing an enum 
+typdef allow to alias the name of the enum
+typdef enum terrain_type{
+ter_debug
+ter_boulder
+}enum_name_t;
